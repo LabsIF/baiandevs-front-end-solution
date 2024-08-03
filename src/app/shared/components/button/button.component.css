@@ -1,0 +1,89 @@
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+}
+
+.button {
+  display: flex;
+  width: 262px;
+  height: 44px;
+  padding: 12px 8px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #6c747e;
+  color: #fff;
+  font-family: "Inter-Bold";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  background: #51585f;
+}
+
+.button-blue{
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 5px;
+  border: 1px solid #316C87;
+  background: #316C87;
+  color: #FFFFFF;
+  cursor: pointer;
+  }
+  
+  .button-blue-extended{
+  cursor: pointer;
+  display: flex;
+  padding: 12px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 5px;
+  border: 1px solid #316C87;
+  background: #316C87;
+  color: #FFFFFF;
+  width: 300px;
+}
+
+/* resonsividade para dispositivos moveis */
+@media (max-width: 414px) {
+  .button {
+    width: 16.375rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .button {
+    width: 15rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .button {
+    width: 13.75rem;
+  }
+}
+
+@media (max-width: 375px) {
+  .button {
+    width: 12.5rem;
+  }
+}
+
+@media (max-width: 325px) {
+  .button {
+    width: 11.25rem;
+  }
+}

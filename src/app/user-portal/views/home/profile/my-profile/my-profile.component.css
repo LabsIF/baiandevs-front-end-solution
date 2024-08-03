@@ -1,0 +1,209 @@
+@font-face {
+  font-family: "Inter-Bold";
+  src: url("../../../../../../assets/fonts/Inter-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Regular";
+  src: url("../../../../../../assets/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter-Medium";
+  src: url("../../../../../../assets/fonts/Inter-Medium.ttf") format("truetype");
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  gap: 2em;
+  background: #fff;
+  padding: 2% 5%;
+  font-family: 'Inter-Regular';
+}
+
+.container h2 {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 900;
+  font-family: "Inter-Bold";
+  line-height: 20px;
+  /* 125% */
+  padding-bottom: 1.5em;
+}
+
+.container span {
+  color: #000;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+
+.btn-upload {
+font-family: 'Inter-Medium';
+color: #2C3F47;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px;
+text-align: left;
+cursor: pointer;
+background: none;
+border: none;
+}
+
+.container-photo {
+  background: #d9d9d9;
+  width: 84px;
+  height: 88px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-photo  img {
+  max-width: 100px;
+}
+.info-basic {
+  display: flex;
+  gap: 2em;
+  width: 100%;
+  flex-direction: column;
+  border-bottom: 1.5px solid #c9c7c7;
+  padding-bottom: 1.5em;
+}
+.image-upload-container{
+  border: none;
+  background: none;
+  font-family: 'Inter-Medium';
+  color: #2C3F47;
+}
+.image-input {
+  /* vamos remover as bordas desse botão esolhe ficheiro do input, deixando como se fosse apenas o texto */
+  border: none;
+  background: none;
+  font-family: 'Inter-Medium';
+  color: #2C3F47;
+}
+
+.section-photo {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  padding: 20px 0px;
+  padding-left: 2em;
+  background-color: #FAFAFA;
+}
+
+.section-photo article {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+
+.section-name {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.container-input {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.input-name {
+  width: 550px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #2c3f47;
+  padding-left: 10px;
+}
+
+.input-phone {
+  width: 253px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px;
+  border: 1px solid #2c3f47;
+  padding-left: 10px;
+}
+
+.button {
+  display: flex;
+  height: 40px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 5px;
+  border: 1px solid #2c3f47;
+  color: #2c3f47;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 25px;
+}
+
+.container-login {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.container-email {
+  display: flex;
+  gap: 2em;
+  flex-direction: column;
+  padding-bottom: 1.5em;
+}
+
+.input {
+  width: 425px;
+  height: 40px;
+  flex-shrink: 0;
+  border-radius: 5px 0 0 5px;
+  border: 1px solid #2c3f47;
+  border-right: none;
+  padding-left: 5px;
+}
+
+.container-login button {
+  display: flex;
+  height: 40px;
+  padding: 12px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-weight: 600;
+  border-radius: 0 5px 5px 0;
+  border: 1px solid #2c3f47;
+  cursor: pointer;
+}
+
+.input-content {
+  display: flex;
+}
+
+.checkbox-own {
+  margin-right: 25px;
+  transform: scale(1.5);
+}
+
+.checkbox {
+  margin-right: 16px;
+  color: #2C3F47;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px;
+}
